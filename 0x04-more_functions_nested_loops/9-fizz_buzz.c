@@ -11,22 +11,25 @@
 int main(void)
 {
 	int i;
+	char f[] = "Fizz";
+	char b[] = "Buzz";
+	char d[] = "FizzBuzz";
 
 	for (i = 1; i < 101; i++)
 	{
 		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("FizzBuzz ");
+			printf("%s ", d);
 			continue;
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("%s ", f);
 			continue;
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("%s ", b);
 			continue;
 		}
 		else
