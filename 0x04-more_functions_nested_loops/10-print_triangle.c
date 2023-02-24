@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 /**
  * print_triangle - prints triangle of size arg using"#"
  * @size: arg
@@ -12,7 +12,7 @@ void print_triangle(int size)
 	{
 		for (j = size - i; j > 0; j--)
 			_putchar(' ');
-		for (k = i; k > 0; k++)
+		for (k = i; k > 0; k--)
 			_putchar('#');
 		_putchar('\n');
 	}
