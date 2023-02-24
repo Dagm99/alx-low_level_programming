@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_line - prints a line of length arg using '_'
  *
