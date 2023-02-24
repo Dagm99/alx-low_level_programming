@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - for the FizzBuzz challenge
  *
- * Return: 0 siccessful
+ * Return: 0 successful
  */
 int main(void)
 {
@@ -29,4 +30,5 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("\n");
+	return (0);
 }
