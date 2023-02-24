@@ -2,6 +2,9 @@
 #include <stdlib.h>
 /**
  * main - for the FizzBuzz challenge
+ * Fuzz for 3x
+ * Buzz for 5x
+ * FuzzBiz for 3x && 5x
  *
  * Return: 0 successful
  */
